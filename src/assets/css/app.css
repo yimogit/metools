@@ -1,0 +1,81 @@
+a{cursor: pointer;}
+
+.layui-layout-admin .layui-header {
+    border-bottom: 5px solid rgb(26, 160, 148);
+}
+.layui-layout-admin .layui-current{
+    border-left: 5px solid rgb(26, 160, 148);
+}
+  .ymheader{
+      background: #393D49
+  }
+  .ymheader .user-action {
+      position: absolute;
+      right: 15px;
+      top: 25px;
+  }
+  .ymheader .user-action a{
+      color:#fff;
+      font-size: 16px;
+  }
+  .ymheader .logo {
+      height: 60px;
+  }
+  .ymheader .searchTxt{
+          position: absolute;
+    width: 200px;
+    left: 120px;
+    top: 16px;
+    
+  }
+  .ymheader .searchTxt input{
+          height: 30px;
+    line-height: 30px;
+    padding-left: 12px;
+    background-color: #424652;
+    background-color: rgba(255,255,255,.05);
+    border: none 0;
+    color: #fff;
+    font-size: 12px;
+  }
+    .welcome {
+        width: 200px;
+        height: 200px;
+        margin: 5px;
+        float: left;
+        text-align: center;
+        position: relative;
+    }
+    
+    .welcome a {
+        position: relative;
+        top: 50%;
+        height: 20px;
+        color: white;
+        margin-top: -10px;
+        display: block;
+        font-size: 18px;
+        /*text-shadow: 1px 1px*/
+    }
+    #contentFooter{
+        z-index:999;height:35px;
+    }
+    #contentFooter p{
+        text-indent: 10px;
+        line-height: 35px;
+        font-size: 15px;
+    }
+    #contentFooter p a{
+        margin: 10px;
+    }
+
+    @media screen and (max-width: 720px) {
+        #leftMenu {
+            display: none;
+        }
+        #rightContent,#contentFooter{
+            left:0;
+        }
+    } 
+
+    .site-tips{margin-bottom: 10px; padding: 15px; line-height: 22px; border-left: 5px solid #1aa094; background-color: #f2f2f2;}
