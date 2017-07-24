@@ -1,0 +1,36 @@
+language: node_js
+node_js: 
+    - '6'
+
+# Travis-CI Caching
+cache:
+  directories:
+    - node_modules
+
+
+# S: Build Lifecycle
+install:
+  - npm install
+
+before_script:
+
+
+script:
+  - npm run build
+
+after_script:
+  - cd ./dist
+  - git init
+  - git config user.name "${U_NAME}"
+  - git config user.email "${U_EMAIL}"
+  - git add .
+  - git commit -m "Update blogs"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:${P_BRANCH}
+# E: Build LifeCycle
+
+branches:
+  only:
+    - master
+env:
+ global:
+   #- GH_REF: github.com/yimogit/metools.git
