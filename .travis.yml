@@ -10,10 +10,10 @@ cache:
 
 # S: Build Lifecycle
 install:
+  - npm install cnpm
   - cnpm install
 
 before_script:
-  - npm install cnpm -g
 
 script:
   - npm run build
