@@ -13,7 +13,7 @@ install:
   - cnpm install
 
 before_script:
-
+  - npm install cnpm -g
 
 script:
   - npm run build
