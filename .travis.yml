@@ -10,8 +10,7 @@ cache:
 
 # S: Build Lifecycle
 install:
-  - npm install cnpm
-  - cnpm install
+  - npm install --registry=https://registry.npm.taobao.org
 
 before_script:
 
