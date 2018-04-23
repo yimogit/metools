@@ -6,8 +6,8 @@
 菜单可通过/static/data/initData.js配置
 
 访问地址：[http://tools.yimo.link](http://tools.yimo.link)   
-纯净版：[https://metools.js.org](https://metools.js.org)
-chrome插件版:https://github.com/yimogit/metools-plugin
+纯净版：[https://metools.js.org](https://metools.js.org)        
+chrome插件版:https://github.com/yimogit/metools-plugin 
 
 实现列表
 -----------------------
