@@ -21,8 +21,8 @@
 ## 4. 开启对 metools 项目的集成并进入设置页面  
 > ![图片](https://dn-coding-net-production-pp.qbox.me/2e93e40d-35fb-44fe-a62e-0a96e258dcc2.png)     
 > 如下图所示，根据需要配置构建信息
-> 添加github的Token到环境变量中，用户名，邮箱也可添加进去，这样配置文件中就可以使用了
-> 生成Token见步骤5.因为github上面只能看到一次，所以在travis-ci中就可以显示出来以备后用       
+> 添加github的Token到环境变量中，用户名，邮箱也可添加进去，这样配置文件中就可以使用了    
+> 生成Token见步骤5.注意：**配置私密的环境变量时一定要加密，因为会显示在日志中且能够被他人看到**       
 > ![图片](https://dn-coding-net-production-pp.qbox.me/88ec5462-f9ff-499e-876d-38130df95840.png)
 > 根据步骤6的配置，还需要添加一些环境变量使起更方便(地址别填错了)
 ![图片](https://dn-coding-net-production-pp.qbox.me/eb84e86d-0119-49f4-b7b8-3f9a61995cb3.png)
@@ -31,6 +31,7 @@
 > 访问令牌的作用就是授权仓库操作权限 https://github.com/settings/tokens    
 > Github>settings>Personal access tokens> Generate new token > Generate token> Copy Token 
 > ![图片](https://dn-coding-net-production-pp.qbox.me/05e1958b-cf92-46a5-897d-b5a276905cf6.png) 
+
 
 
 ## 6. .travis.yml 文件的简单配置
