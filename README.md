@@ -1,9 +1,10 @@
 # 个人工具站点
 
-本项目是一个使用vue2.0+layui制作的工具站点     
-嗯。没啥技术含量，就是为了方便自己。      
-你可以fork到自己的网站，然后配置coding-pages域名，构建自己的工具站点。     
-菜单可通过/static/data/initData.js配置
+**这个工具个人及朋友实际使用的时候主要还是 Chrome 插件居多，欢迎使用(https://github.com/yimogit/metools-plugin)**
+
+本项目是一个使用 vue2.0+layui 制作的工具站点          
+你可以 fork 到自己的网站，然后配置域名，构建自己的工具站点。     
+
 
 访问地址：[http://tools.yimo.link](http://tools.yimo.link)       
 纯净版：[https://metools.js.org](https://metools.js.org)        
